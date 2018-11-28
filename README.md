@@ -21,6 +21,10 @@ Para web services próprios, escrever um código que consuma da API desses servi
 #### Scrapy
 Para páginas web ou mesmo APIs web externas, o scrapy é interessante por possibilitar ajuste fino na concorrência das requisições e definição de estratégias em caso de erros HTTP, além de facilitar a criação de pipelines para tratamento das requisições.
 
+Para dados não estruturados, um processo secundário poderia tratar e garantir que informações estariam organizadas de modo a serem acessíveis no longo prazo ou descartadas quando deixassem de ser necessárias com o armazenamento de metadados referentes ao conteúdo do datalake.
+
+E os dados poderiam ser expostos e acessados também via API, dependendo do uso que eles possam ter.
+
 ## Código
 O código requisitado não tem disponibilização dos dados em ambiente de cloud, nem ajuste de gatilhos para execução do carregamento dos dados.
 
